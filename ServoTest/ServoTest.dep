@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3292411804</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\CO2toModBus.bin</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CustomStartUp.o.rsp</file>
+            <file>$PROJ_DIR$\LPC1768_Flash.icf</file>
+            <file>$PROJ_DIR$\INC\Board\arm_comm.h</file>
+            <file>$PROJ_DIR$\INC\PWM\PWM.c</file>
+            <file>$PROJ_DIR$\INC\Board\board.c</file>
+            <file>$PROJ_DIR$\INC\PWM\PWM.h</file>
+            <file>$PROJ_DIR$\CustomStartUp.s</file>
+            <file>$PROJ_DIR$\board.h</file>
+            <file>$PROJ_DIR$\includes.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\NXP\iolpc1768.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Board\board.o</file>
+            <file>$PROJ_DIR$\Debug\List\ServoTest.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CustomStartUp.o</file>
+            <file>$TOOLKIT_DIR$\inc\NXP\iolpc1766.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\PWM\PWM.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\ServoTest.out</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\CO2toModBus.bin</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\INC\PWM\PWM.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 17 33 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\INC\Board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 27 0 30 19 13 32 2 33 31 16 18 22 17 5 10 8 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CustomStartUp.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 27 0 30 19 13 32 2 33 31 16 18 22 17 10 8 5 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34 21</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\ServoTest.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25 14 28 26 20 23 29 15 4</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
